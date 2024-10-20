@@ -227,7 +227,6 @@
             this.Add1.Text = "Add";
             this.Add1.UseVisualStyleBackColor = true;
             this.Add1.Click += new System.EventHandler(this.button1_Click);
-            this.Add1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Add1_MouseClick);
             // 
             // Modify1
             // 
@@ -238,7 +237,6 @@
             this.Modify1.TabIndex = 10;
             this.Modify1.Text = "Modify";
             this.Modify1.UseVisualStyleBackColor = true;
-            this.Modify1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Modify1_MouseClick);
             // 
             // Delete1
             // 
@@ -280,7 +278,6 @@
             this.Add2.Text = "Add";
             this.Add2.UseVisualStyleBackColor = true;
             this.Add2.Click += new System.EventHandler(this.Add2_Click);
-            this.Add2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Add1_MouseClick);
             // 
             // Exit
             // 

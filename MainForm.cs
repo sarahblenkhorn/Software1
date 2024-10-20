@@ -50,7 +50,8 @@ namespace Software1
 
         private void Add1_MouseClick(object sender, MouseEventArgs e)
         {
-
+            AddPart addPartForm = new AddPart();
+            addPartForm.ShowDialog();
         }
 
         private void Add2_Click(object sender, EventArgs e)
