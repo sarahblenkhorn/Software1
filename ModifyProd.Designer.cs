@@ -102,6 +102,7 @@
             this.Delete1.TabIndex = 79;
             this.Delete1.Text = "Cancel";
             this.Delete1.UseVisualStyleBackColor = true;
+            this.Delete1.Click += new System.EventHandler(this.Delete1_Click);
             // 
             // Modify1
             // 

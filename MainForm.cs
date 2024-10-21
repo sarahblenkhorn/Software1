@@ -48,22 +48,22 @@ namespace Software1
             Application.Exit();
         }
 
-        private void Add1_MouseClick(object sender, MouseEventArgs e)
-        {
-            AddPart addPartForm = new AddPart();
-            addPartForm.ShowDialog();
-        }
-
         private void Add2_Click(object sender, EventArgs e)
         {
             AddProduct addProductForm = new AddProduct();
             addProductForm.ShowDialog();
         }
 
-        private void Modify1_MouseClick(object sender, MouseEventArgs e)
+        private void Modify1_Click(object sender, EventArgs e)
         {
             ModifyPart modifyPartForm = new ModifyPart();
             modifyPartForm.ShowDialog();
+        }
+
+        private void Modify2_Click(object sender, EventArgs e)
+        {
+            ModifyProd modifyProdForm = new ModifyProd();
+            modifyProdForm.ShowDialog();
         }
     }
 }

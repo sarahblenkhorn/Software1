@@ -16,5 +16,10 @@ namespace Software1
         {
             InitializeComponent();
         }
+
+        private void Delete1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

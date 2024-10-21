@@ -199,7 +199,6 @@
             this.Search2.TabIndex = 6;
             this.Search2.Text = "Search";
             this.Search2.UseVisualStyleBackColor = true;
-            this.Search2.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -237,6 +236,7 @@
             this.Modify1.TabIndex = 10;
             this.Modify1.Text = "Modify";
             this.Modify1.UseVisualStyleBackColor = true;
+            this.Modify1.Click += new System.EventHandler(this.Modify1_Click);
             // 
             // Delete1
             // 
@@ -267,6 +267,7 @@
             this.Modify2.TabIndex = 13;
             this.Modify2.Text = "Modify";
             this.Modify2.UseVisualStyleBackColor = true;
+            this.Modify2.Click += new System.EventHandler(this.Modify2_Click);
             // 
             // Add2
             // 

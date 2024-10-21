@@ -21,5 +21,10 @@ namespace Software1
         {
 
         }
+
+        private void Delete1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -60,6 +60,7 @@
             this.radioOutsourced.TabStop = true;
             this.radioOutsourced.Text = "Outsourced";
             this.radioOutsourced.UseVisualStyleBackColor = true;
+            this.radioOutsourced.CheckedChanged += new System.EventHandler(this.radioOutsourced_CheckedChanged);
             // 
             // radioInHouse
             // 
@@ -72,6 +73,7 @@
             this.radioInHouse.TabStop = true;
             this.radioInHouse.Text = "In-House";
             this.radioInHouse.UseVisualStyleBackColor = true;
+            this.radioInHouse.CheckedChanged += new System.EventHandler(this.radioInHouse_CheckedChanged);
             // 
             // button2
             // 
@@ -82,6 +84,7 @@
             this.button2.TabIndex = 54;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -92,6 +95,7 @@
             this.button1.TabIndex = 53;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelCompanyOrMachineID
             // 
@@ -229,7 +233,7 @@
             this.label7.TabIndex = 55;
             this.label7.Text = "Add Part";
             // 
-            // Form1
+            // AddPart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -253,7 +257,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.radioOutsourced);
             this.Controls.Add(this.radioInHouse);
-            this.Name = "Form1";
+            this.Name = "AddPart";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
